@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import AddTodo from "./components/AddTodo";
 // import TodoItem from "./Todoitem";
-// import PropTypes, { nominalTypeHack } from "prop-types";
+import PropTypes from "prop-types";
 
 class AddTodo extends Component {
   state = {
@@ -39,8 +39,8 @@ class AddTodo extends Component {
 }
 
 //PropTypes
-// AddTodo.propTypes = {
-//   todos: PropTypes.array.isRequired
-// };
+AddTodo.propTypes = {
+  AddTodo: PropTypes.func.isRequired
+};
 
 export default AddTodo;
