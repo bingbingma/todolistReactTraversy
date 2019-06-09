@@ -1,2 +1,0 @@
-# todolistReactTraversy
-Created with CodeSandbox
